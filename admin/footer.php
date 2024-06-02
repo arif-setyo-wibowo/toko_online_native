@@ -1,7 +1,7 @@
   <!-- /.content-wrapper -->
   <footer class="main-footer">
     <div class="pull-right hidden-xs">
-      Toko Online
+      
     </div>
     <strong>Copyright &copy; <?php echo date('Y') ?></strong>
   </footer>

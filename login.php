@@ -19,7 +19,7 @@
       <center>
 
 
-        <h2>TOKO ONLINE</h2>
+        <h2>E-SHOP FT.XYZ</h2>
 
         <br/>
 

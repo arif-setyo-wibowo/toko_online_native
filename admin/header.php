@@ -81,7 +81,7 @@
               ?>
               <img src="../gambar/sistem/user.png" class="img-circle">
             <?php }else{ ?>
-              <img src="../gambar/user/<?php echo $profil['admin_foto'] ?>" class="img-circle" style="max-height:45px">
+              <img src="../gambar/user/<?php echo $profil['admin_foto'] ?>"  style="height:45px; width:45px;" class="img-circle" style="max-height:45px">
             <?php } ?>
           </div>
           <div class="pull-left info">

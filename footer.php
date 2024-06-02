@@ -17,7 +17,7 @@
 					</div>
 					<!-- /footer logo -->
 
-					<p>Toko online terlengkap dengan kualitas terbaik.</p>
+					<!-- <p>Toko online terlengkap dengan kualitas terbaik.</p> -->
 
 				</div>
 			</div>
@@ -42,12 +42,14 @@
 			<!-- footer widget -->
 			<div class="col-md-3 col-sm-6 col-xs-6">
 				<div class="footer">
-					<!-- <h3 class="footer-header">Customer Service</h3>
+					<h3 class="footer-header">Customer Service</h3>
 					<ul class="list-links">
-						<li><a href="#">Tentang</a></li>
-						<li><a href="#">Pengiriman</a></li>
-						<li><a href="#">Tracking Resi</a></li>
-					</ul> -->
+						<h4>Admin WhatsApp: </h4>
+						<li><a href="https://api.whatsapp.com/send/?phone=6282170171320">082170171320 (Dece)</a></li>
+						<li><a href="https://api.whatsapp.com/send/?phone=6289506263211">089506263211(Maheswari)</a></li>
+						<li><a href="https://api.whatsapp.com/send/?phone=6282252427017">082252427017(Kurniawan)</a></li>
+						<li>email: ftxyz@gmail.com </li>
+					</ul>
 				</div>
 			</div>
 			<!-- /footer widget -->
@@ -57,7 +59,7 @@
 				<div class="footer">
 					<h3 class="footer-header">Stay Connected</h3>
 					
-					<p>Follow media sosial kami untuk lebih dekat dan mendapat informasi-informasi terbaru tentang toko kami.</p>
+					<p>Follow media sosial kami untuk lebih dekat dan mendapat informasi-informasi terbaru tentang kami.</p>
 					
 					<!-- footer social -->
 					<ul class="footer-social">
