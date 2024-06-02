@@ -61,11 +61,10 @@
 					
 					<!-- footer social -->
 					<ul class="footer-social">
-						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-						<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+						<li><a href="https://www.facebook.com/grace.d.tumanggor?mibextid=LQQJ4D" target="_blank"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://x.com/abinggnih?s=21&t=zYdPK8OEOfzQHRbOwWlvgw" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://www.instagram.com/sabinamaheswari" target="_blank"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://pin.it/iVyRWr0Cf" target="_blank"><i class="fa fa-pinterest"></i></a></li>
 					</ul>
 					<!-- /footer social -->
 				</div>

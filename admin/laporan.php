@@ -78,10 +78,10 @@
                     <tr><?php 
                     $data = mysqli_query($koneksi, "
                     SELECT SUM(invoice_total_bayar) AS total_uang
-    FROM invoice
-    WHERE date(invoice_tanggal) >= '$tgl_dari'
-      AND date(invoice_tanggal) <= '$tgl_sampai'
-      AND (invoice_status = 4 OR invoice_status = 5)
+                    FROM invoice
+                    WHERE date(invoice_tanggal) >= '$tgl_dari'
+                      AND date(invoice_tanggal) <= '$tgl_sampai'
+                      AND (invoice_status = 4 OR invoice_status = 5)
                 ");
                 
                     
