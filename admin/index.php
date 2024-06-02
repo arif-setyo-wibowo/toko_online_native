@@ -82,6 +82,51 @@
           <a href="admin.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
         </div>
       </div>
+      <div class="col-lg-3 col-xs-6">
+        <div class="small-box bg-green">
+          <div class="inner">
+            <?php 
+            $invoice = mysqli_query($koneksi," SELECT t.*
+            FROM transaksi t
+            JOIN invoice i ON t.transaksi_invoice = i.invoice_id
+            WHERE t.transaksi_produk = 14 AND ( i.invoice_status = 5 OR i.invoice_status=4)") ;
+            ?>
+            <h3><?php echo mysqli_num_rows($invoice); ?></h3>
+            <p>Jumlah Penjualan Pertamax</p>
+          </div>
+          <a href="transaksi.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-xs-6">
+        <div class="small-box bg-primary">
+          <div class="inner">
+            <?php 
+            $invoice = mysqli_query($koneksi," SELECT t.*
+            FROM transaksi t
+            JOIN invoice i ON t.transaksi_invoice = i.invoice_id
+            WHERE t.transaksi_produk = 15 AND ( i.invoice_status = 5 OR i.invoice_status=4)");
+            ?>
+            <h3><?php echo mysqli_num_rows($invoice); ?></h3>
+            <p>Jumlah Penjualan Pertalite</p>
+          </div>
+          <a href="transaksi.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-xs-6">
+        <div class="small-box bg-yellow">
+          <div class="inner">
+            <?php 
+            $invoice = mysqli_query($koneksi," SELECT t.*
+            FROM transaksi t
+            JOIN invoice i ON t.transaksi_invoice = i.invoice_id
+            WHERE t.transaksi_produk = 16 AND ( i.invoice_status = 5 OR i.invoice_status=4) ");
+            ?>
+            <h3><?php echo mysqli_num_rows($invoice); ?></h3>
+            <p>Jumlah Penjualan B35</p>
+          </div>
+          <a href="transaksi.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+        </div>
+      </div>
 
 
 

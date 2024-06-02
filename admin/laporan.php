@@ -75,6 +75,24 @@
                       <th>:</th>
                       <td><?php echo $tgl_sampai; ?></td>
                     </tr>
+                    <tr><?php 
+                    $data = mysqli_query($koneksi, "
+                    SELECT SUM(invoice_total_bayar) AS total_uang
+    FROM invoice
+    WHERE date(invoice_tanggal) >= '$tgl_dari'
+      AND date(invoice_tanggal) <= '$tgl_sampai'
+      AND (invoice_status = 4 OR invoice_status = 5)
+                ");
+                
+                    
+                    ?>
+                      <th>TOTAL PENDAPATAN</th>
+                      <th>:</th>
+                      <td><?php $row = mysqli_fetch_assoc($data);
+
+// Display the total amount of money
+echo "Rp. ".number_format( $row['total_uang']) ?></td>
+                    </tr>
                   </table>
                   
                 </div>
