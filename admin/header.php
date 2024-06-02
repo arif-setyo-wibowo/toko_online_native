@@ -28,7 +28,25 @@
     header("location:../login.php?alert=belum_login");
   }
   ?>
-
+<style>
+  .bg-primary {
+    background-color: #38ad53 !important;
+  }
+  .btn-primary{
+    background-color: #38ad53 !important;
+  }
+  .box-info {
+    border-top-color: #d2d6de !important;
+  }
+  .btn-info{
+    background-color: #38ad53 !important;
+    border-color: #d2d6de !important;
+  }
+  .pagination>.active>a{
+    background-color: #38ad53 !important;
+    border-color: #d2d6de !important;
+  }
+</style>
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
   <div class="wrapper">

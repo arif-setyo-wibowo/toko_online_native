@@ -12,7 +12,12 @@
   <link rel="stylesheet" href="assets/plugins/iCheck/square/blue.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
-<body class=" bg-primary">
+<style>
+  .bg-primary{
+    background-color: #38ad53 !important;
+  }
+</style>
+<body class=" bg-primary ">
   <div class="container">
     <div class="login-box">
 

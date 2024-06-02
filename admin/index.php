@@ -83,7 +83,7 @@
         </div>
       </div>
       <div class="col-lg-3 col-xs-6">
-        <div class="small-box bg-green">
+        <div class="small-box bg-blue">
           <div class="inner">
           <?php
             $result = mysqli_query($koneksi, "
